@@ -13,8 +13,13 @@ Another Game Library.
 - Refer the makefile for building.
 - Install SDL2, glad, glm **(because the dependencies are not given)** and specify the include path.
 - The pre-build libray files expect SDL2-ttf (**can be downloaded from the official site**) are present in the AGL\Build\.. directory.
-
 - ***refer the header files for API reference.***
+- **test.exe** present in Build/.. is a sample app to demonstrate the concave to convex polygon conversion.
+    - run the test.exe
+    - **DOUBLE TAP and DRAG** with left mouse button to draw a shape
+    - then hit **ENTER** to calculate a convex polygon.
+    - hit **SPACE** to again start drawing.
+- **main.exe** is a basic app. (just run to check out).
 
 # Notes
 - ***download sdl2-ttf.dll*** from the official site and place it in the folder ***AGL\Build\..***

@@ -15,3 +15,12 @@ Another Game Library.
 - The pre-build libray files expect SDL2-ttf (**can be downloaded from the official site**) are present in the AGL\Build\.. directory.
 
 - ***refer the header files for API reference.***
+
+# Notes
+- ***download sdl2-ttf.dll*** from the official site and place it in the folder ***AGL\Build\..***
+- **the physics is imcomplete.**
+
+  # Future plans
+  - Refining the API and implementation.
+  - 2D bone system & physics based 2D bone system.
+  - A complete physics system using chipmunk2D as backend.

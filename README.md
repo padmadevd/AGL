@@ -1,0 +1,2 @@
+# AGL
+Another Game Library.

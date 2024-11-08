@@ -1,6 +1,6 @@
 
-INCLUDE_FOLDER := -IC:\Users\padmadevd\programming\cpplibs\include -I.
-LIB_FOLDER := -LC:\Users\padmadevd\programming\cpplibs\libs\x86_64
+INCLUDE_FOLDER := -IC:\Users\username\programming\cpplibs\include -I.
+LIB_FOLDER := -LBuild
 LIBS := -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lfreetype -lglad -lopengl32 -lgdi32 -lkernel32
 
 Build/test.exe: Build/test.o Build/agl.o Build/audio.o Build/eventDispatcher.o Build/gl.o Build/input.o Build/window.o\

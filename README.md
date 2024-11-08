@@ -7,6 +7,6 @@ It can compile to almost any OS, Thanks to SDL2 :). But it is developed only wit
 In Android, it uses OpenGLES and for linux and windows it uses openGL.
 
 # Dependencies
-SDL2, SDL-mixer, SDL-ttf, SDL-image
+SDL2, SDL-mixer, SDL-ttf, SDL-image, glm, glad
 
 # refer the header files for API reference.

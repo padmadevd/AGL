@@ -1,5 +1,3 @@
-# waiting to be reviewed by the cherno... :)
-- [thecherno@youtube](https://www.youtube.com/@TheCherno)
 # AGL
 Another Game Library.
 

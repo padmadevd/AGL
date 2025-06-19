@@ -12,7 +12,7 @@ Another Game Library.
 # Building
 - Refer the makefile for building.
 - Install SDL2, glad, glm **(because the dependencies are not given)** and specify the include path.
-- The pre-build libray files expect SDL2-ttf (**can be downloaded from the official site**) are present in the AGL\Build\.. directory.
+- The pre-build libray files except SDL2-ttf (**can be downloaded from the official site**) are present in the AGL\Build\.. directory.
 - ***refer the header files for API reference.***
 - **test.exe** present in Build/.. is a sample app to demonstrate the concave to convex polygon conversion.
     - run the test.exe

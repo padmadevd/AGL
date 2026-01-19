@@ -1,31 +1,45 @@
-# AGL
-Another Game Library.
+# AGL  
+Another Game Library
 
-# About
-- AGL(Another Game Library) is a c++ 2D game library with SDL2 backend
-- It can compile to almost any OS, Thanks to SDL2 :). But it is developed only with android, linux, and windows in mind.
-- In Android, it uses OpenGLES and for linux and windows it uses openGL.
+## About
+AGL (Another Game Library) is a cross-platform **2D game development library written in C++**, built on top of **SDL2**.
 
-# Dependencies
-- SDL2, SDL-mixer, SDL-ttf, SDL-image, glm, glad
+- Designed to compile on almost any operating system thanks to SDL2  
+- Actively developed with **Android, Linux, and Windows** in mind  
+- Uses **OpenGL ES** on Android and **OpenGL** on Linux and Windows  
+- Focuses on performance, modularity, and flexibility for custom game engines  
 
-# Building
-- Refer the makefile for building.
-- Install SDL2, glad, glm **(because the dependencies are not given)** and specify the include path.
-- The pre-build libray files except SDL2-ttf (**can be downloaded from the official site**) are present in the AGL\Build\.. directory.
-- ***refer the header files for API reference.***
-- **test.exe** present in Build/.. is a sample app to demonstrate the concave to convex polygon conversion.
-    - run the test.exe
-    - **DOUBLE TAP and DRAG** with left mouse button to draw a shape
-    - then hit **ENTER** to calculate a convex polygon.
-    - hit **SPACE** to again start drawing.
-- **main.exe** is a basic app. (just run to check out).
+## Features
+**Another Game Library | C++, SDL2 | Apr 2025**
 
-# Notes
-- ***download sdl2-ttf.dll*** from the official site and place it in the folder ***AGL\Build\..***
-- **the physics is imcomplete.**
+- Cross-platform 2D game development library powered by SDL2  
+- Rendering system with OpenGL / OpenGL ES support  
+- Event handling and input management  
+- Framebuffer utilities  
+- Particle system support  
+- GLSL shader integration  
+- Modular design for easy integration into custom engines  
+- Emphasis on performance and clean API design  
 
-  # Future plans
-  - Refining the API and implementation.
-  - 2D bone system & physics based 2D bone system.
-  - A complete physics system using chipmunk2D as backend.
+## Dependencies
+- SDL2  
+- SDL-mixer  
+- SDL-ttf  
+- SDL-image  
+- glm  
+- glad  
+
+## Notes
+- **SDL2-ttf binaries** must be obtained from the official SDL website  
+- Some prebuilt library files (except SDL2-ttf) are included in the `AGL/Build` directory  
+- **Physics system is incomplete**  
+
+## Future Plans
+- Refinement of the public API and internal implementation  
+- 2D bone animation system  
+- Physics-based 2D bone system  
+- Full physics system using **Chipmunk2D** as the backend  
+
+## Showcase : Rocket Dash
+Rocket Dash is a small game made using AGL to showcase the features of the library.
+![rocket dash screen record](/screenshots/rec.gif)

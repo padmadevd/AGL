@@ -42,4 +42,4 @@ AGL (Another Game Library) is a cross-platform **2D game development library wri
 
 ## Showcase : Rocket Dash
 Rocket Dash is a small game made using AGL to showcase the features of the library.
-![rocket dash screen record](/screenshots/rec.gif)
+![rocket dash screen record](screenshots/rec.gif)
